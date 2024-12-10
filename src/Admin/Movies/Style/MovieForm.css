@@ -1,0 +1,82 @@
+.movie-form {
+    width: 60%;
+    font-size: 14px;
+    color: #c2baba;
+    text-shadow: 0 0 14px #d94f5c, 0 0 30px #d94f5c;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto 20px;
+    margin-top: 20px;
+    background-color: #191919;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-form input,
+.movie-form textarea,
+.movie-form select {
+    width: 100%;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    height: 20px;
+    background: transparent;
+    border: none; /* Aplica la sombra solo en el borde inferior */
+    outline: none;
+    font-size: 1em;
+    color: #c2baba;
+    padding: 0 35px 0 5px;
+    transition: .5s ease;
+}
+
+.preview-image {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+.schedule-input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.schedule-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.schedule-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.movie-form button {
+    background: rgba(0,0,0,.5);
+    border: none;
+    border-radius: 5px;
+    color: #c8c8c8;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.movie-form button:hover {
+    background-color: #c8c8c8;
+    color: black;
+}
+
+option{
+    background-color: #191919;
+}

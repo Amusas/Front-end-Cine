@@ -1,0 +1,42 @@
+.menu_admin {
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.menu_admin h2 {
+    margin-bottom: 15px;
+}
+
+.menu_admin ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_admin li {
+    margin-bottom: 10px;
+}
+
+.menu_admin button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu_admin button:hover {
+    background-color: #ff6347;
+}

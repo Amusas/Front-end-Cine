@@ -1,0 +1,109 @@
+.edit-user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+}
+
+
+.formulario_editar {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.inputs_editar {
+    width: 100%;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    height: 20px;
+    background: transparent;
+    border: none; /* Aplica la sombra solo en el borde inferior */
+    outline: none;
+    font-size: 1em;
+    color: #c2baba;
+    padding: 0 35px 0 5px;
+    transition: .5s ease;
+}
+
+.botones_editar {
+    margin-top: 10px;
+    background: rgba(0,0,0,.5);
+    border: none;
+    border-radius: 5px;
+    color: #c8c8c8;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.atras_editar{
+    text-align: center;
+    padding-top: 9px;
+    height: 36px;
+    margin-left: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 5px;
+    color: #c8c8c8;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+.boton_Actualizar{
+    margin-bottom: 18px;
+    width: 100%;
+    height: 40px;
+    background: #c2baba;
+    box-shadow: 0 0 15px #d94f5c, 0 0 15px #d94f5c;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #191919;
+    font-weight: 500;
+    transition: .5s ease;
+}
+
+.input-line {
+    margin-bottom: 14px;
+    height: 3px;
+    box-shadow: 0 0 10px #d94f5c;
+    background: #ffffff;
+}
+
+
+.label_editar{
+    margin-top: 3px;
+    color: #c2baba;
+}
+
+.botones_editar:hover, .atras_editar:hover {
+    background-color: #c8c8c8;
+    color: black;
+}
+
+.user-profile__button--delete {
+    background: #bc2f3d;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: #c8c8c8;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.user-profile__button--delete:hover {
+    background-color: #e53935;
+}
